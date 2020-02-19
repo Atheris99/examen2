@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+
+h1.color {
+    color: rgb(238, 75, 75);
+    font-family: 'Zhi Mang Xing', cursive;
+}
+
+main {
+    background-color: lightsalmon;
+}
+
+h1::first-letter {
+    font-family: Arial, Helvetica, sans-serif;
+    color: chocolate;
+    font-size: 150%;
+    
+}
+
+
+@media (orientation: landscape) {
+    html {
+      background-color: lightblue;
+    }
+  }
+
+  @media (min-width: 360px) and (max-width: 740px) {
+    html {
+      background-color: yellow;
+    }
+  }
+
+
+  section.pais {
+      background-color: rgb(110, 218, 96);
+  }
+
+  div:first-child {
+    color: red;
+  }
+
+  p#rojo {
+    color: red;
+  }
+
+
+  section.bandera {
+      background-color: blanchedalmond;;
+  }
+
+
+  table.color {
+      background-color:  goldenrod;;
+      width: 25%;
+      height: 100%;
+  }
+
+  td:hover.l {
+    background-color: yellow;
+    color: yellow;
+  }
+
+  td:hover.b {
+    background-color: skyblue;
+    color: skyblue;
+  }
+
+  input:focus {
+    background-color: blue;
+    border: red 2px;
+  }
+
+  td {
+    margin: 15px;
+    padding: 15px;
+  }
+
+input.centro {
+    text-align: center;
+}
+
+h2.color {
+    color: yellow;
+    text-align: center;
+  border-color: blue red yellow;
+  border-width: 10px 40px;
+  border-style:  dotted solid  dashed;
+  background-color: chocolate ;
+}
+
+hr {
+    height: 20px;
+    background-color: blue;
+    width: 20%;
+    border-color: red;
+}
+
+
